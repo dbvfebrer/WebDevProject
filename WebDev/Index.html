@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel="stylesheet" href="main.css">
+    <title>Sweet Djeelights</title>
+</head>
+<body>
+    <!-- Header -->
+  <header class="main-header">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo">Sweet Djeelights</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html" class="active-link">Home</a>
+            </li>
+            <li>
+              <a href="Recipe.html">Recipe</a>
+            </li>
+            <li>
+              <a href="Tips.html">Tips</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/donnafebrer">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/home">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <ul id="slide-out" class="sidenav">
+      <h4 class="blue-text text-darken-4 center">Sweet Djeelights</h4>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="index.html" class="active-link">Home</a>
+      </li>
+      <li>
+        <a href="Recipe.html">Recipe</a>
+      </li>
+      <li>
+        <a href="Tips.html">Tips</a>
+      </li>
+    </ul>
+  
+    <!-- Showcase -->
+    <div class="showcase container">
+        <div class="bg-image"></div>
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+            <div class="bg-text">
+          <h1>
+              <spans class="white-text text-darken-1">Your kitchen playground exists within a bigger universe!</span>
+            </h1>
+          <p>
+              <span class="white-text text-darken-4"> Wherever you are in the world, everyone cooks and eats the same food. Yes, the same! You may call it by a different name, combine different ingredients, or serve them with your own spices or condiments, but a deeper look into the different cuisines of the world will tell you that food similarities exist around the world.</span>
+            </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <br><br>
+
+  <!-- Section: Parallax -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="image/Food.jpg"></div>
+    </div>
+    <div class="section blue lighten-4">
+      <div class="row container">
+        <br>
+        <h5 class="grey-text text-darken-3">“Cooking is like painting or writing a song. Just as there are only so many notes or colors, there are only so many flavors—it’s how you combine them that sets you apart.  – Wolfgang Puck”</h5>
+        <br>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="image/about.jpg"></div>
+    </div>
+  <br><br>
+
+  <!-- Section: About -->
+  <section class="section section-about">
+    <div class="container">
+      <h4 class="blue-text text-darken-2"><b>About Me</b></h4>
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel transparent">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="image/me.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+               Always cooked with love. Love in cooking is manifested in the mindful actof cooking, where you immerse yourself in the process and aim for excellence.
+               - dbvfebrer 
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer blue lighten-1"></footer>
+    <div class="footer-copyright blue darken-1">
+      <div class="container">
+        Sweet Djeelights &copy; 2022
+      </div>
+    </div>
+  </footer>
+
+    <!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<script>
+  $(document).ready(function() {
+    // Sidenav Init
+    $('.sidenav').sidenav();
+    // Parallax Init
+    $('.parallax').parallax();
+    });
+</script>
+</body>
+</html> 
+</body>
+</html>
